@@ -1,9 +1,9 @@
-import { Router } from "express";
-import { getPlace, createPlace } from '../controllers/placeController.js';
+import { Router } from 'express'
+import { getPlace, createPlace } from '../controllers/placeController.js'
 
-const router =  Router();
+const router = Router()
 
-router.get('/places', getPlace);
-router.post('/places', createPlace);
+router.get('/places', getPlace)
+router.post('/places', createPlace)
 
-export default router;
+export default router

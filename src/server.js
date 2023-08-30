@@ -1,6 +1,6 @@
 import 'dotenv/config'
 import express from 'express'
-import cors from "cors"
+import cors from 'cors'
 import placesRoutes from './routes/places.js'
 
 const app = express()
@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
   res.send({ message: 'welcome!' })
 })
 
-app.use('/api', placesRoutes);
+app.use('/api', placesRoutes)
 
 app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`)
