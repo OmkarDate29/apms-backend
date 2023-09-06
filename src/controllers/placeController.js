@@ -1,11 +1,11 @@
-import places from "../data/places.js"
+import places from '../data/places.js'
 
 const getPlace = (req, res) => {
-    res.send(places);
-};
+  res.send(places)
+}
 
 const createPlace = (req, res) => {
-    res.send({ message: "createPlace" });
-};
+  res.send({ message: 'createPlace' })
+}
 
-export { getPlace, createPlace };
+export { getPlace, createPlace }
