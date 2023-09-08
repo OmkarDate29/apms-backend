@@ -13,7 +13,12 @@ app.use(cors())
 app.get('/', (req, res) => {
   res.send({
     message: 'Backend for Advanced Parking Management System.',
-    contributers: ['Santosh Phadtare', 'Niranjan Dorage', 'Omkar Date'],
+    contributers: [
+      'Santosh Phadtare',
+      'Niranjan Dorage',
+      'Omkar Date',
+      'Yashraj Zope',
+    ],
   })
 })
 
