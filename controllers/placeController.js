@@ -5,7 +5,7 @@ const getPlace = (req, res) => {
 }
 
 const createPlace = (req, res) => {
-  res.send({ message: 'createPlace' })
+  res.send({ message: 'Create Place!' })
 }
 
 export { getPlace, createPlace }
