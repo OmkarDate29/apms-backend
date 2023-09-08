@@ -4,7 +4,7 @@ import cors from 'cors'
 import placesRoutes from './routes/places.js'
 
 const app = express()
-const PORT = process.env.PORT || 1437
+const PORT =1437
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
