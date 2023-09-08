@@ -1,4 +1,5 @@
 const places = [
+
     {
         lat: 18.9894,
         lon: 73.1175,
@@ -27,7 +28,5 @@ const places = [
         address: "Belapur",
         image: "https://www.delmarvanow.com/gcdn/-mm-/023895d6d8637785395c6009d739d1234711f23d/c=0-234-4608-2837/local/-/media/2015/10/06/Salisbury/Salisbury/635797415781865880-City-Lot-1.JPG"
     },
-
-
 ]
-export default places;
+export default places
