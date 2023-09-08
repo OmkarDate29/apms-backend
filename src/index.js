@@ -4,14 +4,17 @@ import cors from 'cors'
 import placesRoutes from './routes/places.js'
 
 const app = express()
-const PORT =1437
+const PORT = 1437
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cors())
 
-app.get('/api', (req, res) => {
-  res.send({ message: 'welcome!' })
+app.get('/', (req, res) => {
+  res.send({
+    message: 'Backend for Advanced Parking Management System.',
+    contributers: ['Santosh Phadtare', 'Niranjan Dorage', 'Omkar Date'],
+  })
 })
 
 app.use('/api', placesRoutes)
