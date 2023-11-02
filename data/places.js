@@ -32,8 +32,8 @@ const places = [
       'https://www.delmarvanow.com/gcdn/-mm-/023895d6d8637785395c6009d739d1234711f23d/c=0-234-4608-2837/local/-/media/2015/10/06/Salisbury/Salisbury/635797415781865880-City-Lot-1.JPG',
   },
   {
-    lat: 19.2140356,
-    lon: 72.9190593,
+    lat: 19.191030,
+    lon: 72.978100,
     name: 'Thane Parking',
     address: 'Thane',
     image:
